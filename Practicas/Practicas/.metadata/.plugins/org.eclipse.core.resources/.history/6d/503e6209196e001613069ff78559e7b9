@@ -11,7 +11,7 @@ public class Libro {
         nroPag = 0;
     }
 
-    public Libro(String t, String a, int p) {	//Constructor al que se le pasa 3 parámetros
+    public Libro(String t, String a, int p) {
         titulo = t;
         autor = a;
         nroPag = p;

@@ -1,3 +1,5 @@
+package ejercicio2b;
+
 
 public class Libro {
 
@@ -5,13 +7,13 @@ public class Libro {
     private String autor;
     private int nroPag;
 
-    public Libro() {	//Constructor en el que no se le pasa parámetros
+    public Libro() {
         titulo = null;
         autor = null;
         nroPag = 0;
     }
 
-    public Libro(String t, String a, int p) {	//Constructor al que se le pasa 3 parámetros
+    public Libro(String t, String a, int p) {
         titulo = t;
         autor = a;
         nroPag = p;
@@ -42,7 +44,7 @@ public class Libro {
     }
 
     public String toString() {
-        return "Titulo: " + titulo + ", Autor: " + autor + ", Paginas: " + nroPag;
+        return "Titulo: " + titulo + ", Autor: " + autor + ", Pag.: " + nroPag;
     }
 
 }
