@@ -5,13 +5,13 @@ public class Libro {
     private String autor;
     private int nroPag;
 
-    public Libro() {
+    public Libro() {	//Constructor en el que no se le pasa parámetros
         titulo = null;
         autor = null;
         nroPag = 0;
     }
 
-    public Libro(String t, String a, int p) {
+    public Libro(String t, String a, int p) {	//Constructor al que se le pasa 3 parámetros
         titulo = t;
         autor = a;
         nroPag = p;
