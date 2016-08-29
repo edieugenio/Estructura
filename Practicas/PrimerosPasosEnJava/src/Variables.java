@@ -8,7 +8,8 @@ public class Variables {
 		
 		edad=35;
 		
-		System.out.println(edad);
+		System.out.println(edad);	//MOstramos por pantalla el valor de edad
+		
 	}
 
 }
