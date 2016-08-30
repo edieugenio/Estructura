@@ -1,3 +1,7 @@
 *.metada
 *.proyect
 *.classpath
+*.metadata
+*.gwt
+*.settings
+*target
