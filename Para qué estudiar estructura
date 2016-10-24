@@ -1,0 +1,10 @@
+Ernesto
+
+Se estudia para poder representar ciertos tipos que no están disponibles en el lenguaje a partir de otros que sí lo están.
+Un ejemplo típico es el de representar los booleanos en el lenguaje C a partir de los naturales.
+
+Entonces, definimos un tipo Concreto, que va a forma parte de nuestra Álgebra concreta (en este caso son los naturales) que van a servir para representar nuestro tipo Abstracto, que forma parte del Álgebra Abstracta. 
+
+El medio que une estas dos Álgebras es nuestra función de abstracción. A modo de ejemplo, si consideramos que los pares representan falso (F) y los impares representan verdadero (V), la función de abstracción podría ser: num mod 2 <>0. Podemos tomar cualquier par y cualquier impar, por ejemplo 2 y 3. 
+
+	(Nat, 
