@@ -15,6 +15,7 @@ public class Main {
   		
   		root.insertLeft(new TreeNode(2));
   		root.insertRigth(new TreeNode(4));
+  		root.insertRigth(new TreeNode(5));
   		root.insertLeft(new TreeNode(3));
   		System.out.println("El Arbol mostrado en PreOrder es: ");
   		root.printPreOrder();
